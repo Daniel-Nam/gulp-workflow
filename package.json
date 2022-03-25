@@ -1,0 +1,29 @@
+{
+	"name": "gulp-workflow",
+	"version": "1.0.0",
+	"description": "Simple Gulp-WorkFlow for beginners",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"gulp",
+		"javascript",
+		"babel"
+	],
+	"author": "Daniel-Nam",
+	"license": "ISC",
+	"devDependencies": {
+		"@babel/core": "^7.17.8",
+		"@babel/preset-env": "^7.16.11",
+		"autoprefixer": "^10.4.4",
+		"browser-sync": "^2.27.9",
+		"cssnano": "^5.1.5",
+		"gulp": "^4.0.2",
+		"gulp-babel": "^8.0.0",
+		"gulp-postcss": "^9.0.1",
+		"gulp-pug": "^5.0.0",
+		"gulp-sass": "^5.1.0",
+		"sass": "^1.49.9"
+	}
+}
