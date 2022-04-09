@@ -27,9 +27,7 @@ function jsTask() {
 function pugTask() {
 	return src('src/*.pug')
 		.pipe(
-			pug({
-				pretty: true,
-			})
+			pug()
 		)
 		.pipe(dest('public'))
 }
