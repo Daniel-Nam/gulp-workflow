@@ -63,11 +63,11 @@ main h2 {
 }
 
 main img {
-	width: 10rem;
-	height: 10rem;
+	width: 240px;
+	height: 240px;
 	border-radius: 50%;
 	object-fit: cover;
-	animation: rotate360 5s linear infinite;
+	animation: rotate360 8s linear infinite;
 }
 
 @keyframes rotate360 {
